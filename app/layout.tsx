@@ -34,6 +34,11 @@ export default function RootLayout({
         <meta name="config" content={JSON.stringify(getClientConfig())} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <script
+          async
+          src="https://analytics.miaoosi.com/script.js"
+          data-website-id="94daf919-d568-4f9b-97c7-93c310100926"
+        ></script>
       </head>
       <body>{children}</body>
     </html>
